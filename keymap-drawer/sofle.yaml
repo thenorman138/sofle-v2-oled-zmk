@@ -1,9 +1,9 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
-    Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, LGUI, LALT, LCTRL, lower, RET, SPACE, raise, RCTRL, RALT, RGUI]
+    Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, LCTRL, LALT, LEFT GUI, lower, RET, SPACE, raise, RIGHT GUI, RALT, RCTRL]
   lower:
-  - '&studio_unlock'
+  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
@@ -15,7 +15,7 @@ layers:
   - F9
   - F10
   - F11
-  - '`'
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
@@ -125,49 +125,49 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   adjust:
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
   - ''
   - ''
   - ''
-  - EP TOG
-  - RGB HUD
-  - RGB HUI
-  - RGB SAD
-  - RGB SAI
-  - RGB EFF
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - RGB BRD
-  - RGB BRI
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
   - RGB TOG
+  - RGB HUI
+  - RGB SAI
+  - RGB BRI
+  - RGB SPI
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - RGB EFF
+  - RGB HUD
+  - RGB SAD
+  - RGB BRD
+  - RGB SPD
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
